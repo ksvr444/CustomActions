@@ -30,8 +30,6 @@ runs:
         GITHUB_ACTION_PATH: ${{ github.action_path }}
 
     - name: Run goodb
-      run: |
-         chmod +x goodbye.sh
-         goodbye
+      run: sh ./goodbye.sh
       shell: bash
 
