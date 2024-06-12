@@ -31,7 +31,7 @@ runs:
 
     - name: Run goodbye.sh
       run: |
-         chmod +x goodbye.sh
+         chmod +x goodbye.s
          goodbye.sh
       shell: bash
 
