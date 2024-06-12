@@ -32,6 +32,6 @@ runs:
     - name: Run goodb
       run: |
         chmod +x ${GITHUB_ACTION_PATH}/goodbye.sh
-        ${GITHUB_ACTION_PATH}goodbye.sh
+        ${GITHUB_ACTION_PATH}/goodbye.sh
       shell: bash
 
