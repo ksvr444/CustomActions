@@ -32,6 +32,6 @@ runs:
     - name: Run goodb
       run: |
          chmod +x goodbye.sh
-         goodbye.sh
+         goodbye
       shell: bash
 
